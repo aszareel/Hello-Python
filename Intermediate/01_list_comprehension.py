@@ -9,6 +9,7 @@ my_range = range(8)
 print(list(my_range))
 
 # Definición
+print("--  Defnicion ----------------------------")
 
 my_list = [i + 1 for i in range(8)]
 print(my_list)

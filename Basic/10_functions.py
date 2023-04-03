@@ -32,7 +32,7 @@ def sum_two_values_with_return(first_value, second_value):
     return my_sum
 
 
-my_result = sum_two_values(1.4, 5.2)
+my_result = sum_two_values(1.4, 5.2) # Al no tener return no se guarda nada en la variable
 print(my_result)
 
 my_result = sum_two_values_with_return(10, 5)
@@ -68,3 +68,4 @@ def print_upper_texts(*texts):
 
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
+

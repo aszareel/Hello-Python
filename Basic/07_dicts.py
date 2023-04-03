@@ -51,7 +51,7 @@ del my_dict["Calle"]
 print(my_dict)
 
 # Otras operaciones
-
+print("\nOtras Operaciones -------------------------------------\n") 
 print(my_dict.items())
 print(my_dict.keys())
 print(my_dict.values())
@@ -62,9 +62,9 @@ my_new_dict = dict.fromkeys((my_list))
 print(my_new_dict)
 my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
 print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict)
+my_new_dict = dict.fromkeys(my_dict) #Copia el diccionario, pero solo las claves
 print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict, "MoureDev")
+my_new_dict = dict.fromkeys(my_dict, "MoureDev") # Para inicializar las keys
 print((my_new_dict))
 
 my_values = my_new_dict.values()
